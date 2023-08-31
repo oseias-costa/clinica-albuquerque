@@ -8,4 +8,9 @@ export const GlobalStyle = createGlobalStyle`
         --color-gray-text: #434240;
         --color-white-text: #fff;
     }
+
+    h2 {
+        color: var(--color-gray-text: #434240);
+        font-size: 24px;
+    }
 `;
