@@ -10,7 +10,8 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     h2 {
-        color: var(--color-gray-text: #434240);
+        color: var(--color-gray-text);
         font-size: 24px;
+        font-weight: 200;
     }
 `;

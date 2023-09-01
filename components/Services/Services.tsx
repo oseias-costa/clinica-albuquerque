@@ -4,13 +4,15 @@ import * as S from "./services.styles";
 import ServiceCard from "./ServiceCard";
 
 export default function Services() {
-  const serviceList = servicesData.services.map((item) => {
-    return (
-      <>
-        <ServiceCard icon={item.icon} title={item.title} key={item.id} />
-      </>
-    );
-  });
+  const serviceList = servicesData.services.map((item) => 
+        <ServiceCard 
+          id={item.id} 
+          icon={item.icon} 
+          title={item.title} 
+          content={item.content} 
+          key={item.id} 
+        />
+  );
 
   return (
     <S.ServicesContainer>

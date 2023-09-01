@@ -22,5 +22,6 @@ export const ButtonContainer = styled.a<{ size: string; color: string }>`
   @media (max-width: 463px) {
     width: 100%;
     display: block;
+    text-align: center;
   }
 `;
