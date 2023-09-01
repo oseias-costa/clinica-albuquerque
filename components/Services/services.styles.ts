@@ -33,8 +33,8 @@ export const ServiceCard = styled.div`
 export const ServiceCardContainer = styled.div`
   box-shadow: 0px 4px 35px 0px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
-  margin: 20px;    
   padding: 32px;
+  margin: 20px;    
 
   @media(max-width: 465px){
     width: 100%;
