@@ -6,6 +6,7 @@ export const HeadlineContainer = styled.section`
   justify-content: center;
   box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
   align-items: end;
+  padding-top: 25px;
 
   @media (max-width: 830px) {
     flex-wrap: wrap-reverse;
@@ -48,4 +49,8 @@ export const HeadlineContent = styled.p`
 export const HeadlineImage = styled(Image)`
   width: 343px;
   height: auto;
+
+  @media (max-width: 443px){
+    width: 100%;
+  }
 `;

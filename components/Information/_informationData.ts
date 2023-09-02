@@ -4,7 +4,7 @@ import Phone from "../../public/Phone.png";
 
 export const informationData = {
   title: "Informações",
-  infomation: [
+  information: [
     {
       id: "01",
       icon: Location,
@@ -13,8 +13,7 @@ export const informationData = {
     {
       id: "02",
       icon: Clock,
-      content:
-        "Segunda - Quarta - Sexta:  7:00 - 19:00 Terça - Quinta:  7:00 - 12:00",
+      content: 'Segunda - Quarta - Sexta: 7:00 - 19:00\nTerça - Quinta:  7:00 - 12:00',
     },
     {
       id: "03",

@@ -6,6 +6,7 @@ export const HeaderContainer = styled.section`
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #fff;
 `
 
 export const MenuContainer = styled.nav`

@@ -20,7 +20,6 @@ export const ButtonContainer = styled.a<{ size: string; color: string }>`
   border-radius: 17px;
 
   @media (max-width: 463px) {
-    width: 100%;
     display: block;
     text-align: center;
   }

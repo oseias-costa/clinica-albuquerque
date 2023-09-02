@@ -1,4 +1,4 @@
-import { FooterMenuContainer, FooterLink } from "./footer.styles";
+import {  FooterMenuContainer, FooterLink } from "./footer.styles";
 
 export default function FooterMenu() {
   return (

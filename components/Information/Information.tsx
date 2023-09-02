@@ -1,5 +1,5 @@
 import { informationData } from "./_informationData";
-import * as S from "./benefits.styles";
+import * as S from "./information.styles";
 import InformationItem from "./InformationItem";
 
 export default function Information() {
@@ -10,7 +10,7 @@ export default function Information() {
   return (
     <S.InformationContainer>
       <S.InformationTitle>{informationData.title}</S.InformationTitle>
-      <S.InformationBlocks></S.InformationBlocks>
+      <S.InformationBlocks>{informationList}</S.InformationBlocks>
     </S.InformationContainer>
   );
 }

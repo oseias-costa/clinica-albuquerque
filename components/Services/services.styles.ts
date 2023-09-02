@@ -20,7 +20,7 @@ export const ServicesCards = styled.div`
   margin-top: 20px;
   margin-bottom: 20px;
 
-  @media(max-width: 1080px){
+  @media(max-width: 1136px){
     flex-wrap: wrap;
     justify-content: center;
   }

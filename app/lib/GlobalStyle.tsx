@@ -9,6 +9,12 @@ export const GlobalStyle = createGlobalStyle`
         --color-white-text: #fff;
     }
 
+    * {
+        border: 0;
+        margin: 0;
+        padding: 0; 
+    }
+
     h2 {
         color: var(--color-gray-text);
         font-size: 24px;

@@ -14,7 +14,7 @@ export const BenefitsContainer = styled.section`
 `
 
 export const BenefitsImage = styled(Image)`
-    width: 463px;
+    width: 413px;
     height: auto;
     padding-right: 60px;
 
@@ -23,8 +23,8 @@ export const BenefitsImage = styled(Image)`
         padding-left: 20px;
     }
 
-    @media(max-width: 470px){
-        width: 100%;
+    @media(max-width: 520px){
+        width: calc(100% - 40px);
     }
 `
 
