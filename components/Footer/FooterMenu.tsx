@@ -1,11 +1,11 @@
-import {  FooterMenuContainer, FooterLink } from "./footer.styles";
+import { FooterMenuContainer, FooterLink } from "./footer.styles";
 
 export default function FooterMenu() {
   return (
     <FooterMenuContainer>
-      <FooterLink>Início</FooterLink>
-      <FooterLink>Serviços</FooterLink>
-      <FooterLink>Informações</FooterLink>
+      <FooterLink href="#">Início</FooterLink>
+      <FooterLink href="#Servicos">Serviços</FooterLink>
+      <FooterLink href="Informações">Informações</FooterLink>
     </FooterMenuContainer>
   );
 }

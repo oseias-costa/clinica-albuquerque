@@ -8,6 +8,7 @@ export const ButtonContainer = styled.a<{ size: string; color: string }>`
   cursor: pointer;
   font-weight: 600;
   font-size: 16px;
+  text-decoration: none;
 
   background-color: ${(props) =>
     props.color === "blue"

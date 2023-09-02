@@ -8,7 +8,7 @@ export default function Information() {
   ));
 
   return (
-    <S.InformationContainer>
+    <S.InformationContainer id="Informacoes">
       <S.InformationTitle>{informationData.title}</S.InformationTitle>
       <S.InformationBlocks>{informationList}</S.InformationBlocks>
     </S.InformationContainer>
