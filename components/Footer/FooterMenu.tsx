@@ -5,7 +5,7 @@ export default function FooterMenu() {
     <FooterMenuContainer>
       <FooterLink href="#">Início</FooterLink>
       <FooterLink href="#Servicos">Serviços</FooterLink>
-      <FooterLink href="Informações">Informações</FooterLink>
+      <FooterLink href="#Informacoes">Informações</FooterLink>
     </FooterMenuContainer>
   );
 }
