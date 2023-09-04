@@ -5,10 +5,10 @@ import Face from "../../public/face.png";
 export default function FooterMidias(){
     return(
         <FooterMidiasContainer>
-            <a href=''>
+            <a href='https://www.instagram.com/spimplantes/'>
                 <IconMidia src={Insta} alt='Instagram da Clínica Albuquerque' />
             </a>
-            <a href=''>
+            <a href='https://www.facebook.com/spimplantes/?locale=pt_BR'>
                 <IconMidia src={Face} alt='Facebook da Clínica Albuquerque' />
             </a>
         </FooterMidiasContainer>

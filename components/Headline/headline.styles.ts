@@ -4,7 +4,6 @@ import styled from "styled-components";
 export const HeadlineContainer = styled.section`
   display: flex;
   justify-content: center;
-  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
   align-items: start;
   padding-top: 45px;
 
@@ -15,7 +14,7 @@ export const HeadlineContainer = styled.section`
 
 export const HeadlineDescription = styled.div`
   max-width: 443px;
-  padding-top: 40px;
+  padding-top: 50px;
   padding-bottom: 45px;
 
   @media (max-width: 785px) {
@@ -41,7 +40,7 @@ export const HeadlineTitle = styled.h1`
 `;
 export const HeadlineContent = styled.p`
   padding-bottom: 32px;
-  padding-top: 16px;
+  padding-top: 36px;
   max-width: 410px;
   color: var(--color-gray-text);
   font-size: 200;
