@@ -48,8 +48,10 @@ export const HeadlineContent = styled.p`
 export const HeadlineImage = styled(Image)`
   width: 343px;
   height: auto;
+  margin-left: 20px;
+  margin-right: 20px;
 
   @media (max-width: 443px){
-    width: 100%;
+    width: calc(100% - 40px;);
   }
 `;
