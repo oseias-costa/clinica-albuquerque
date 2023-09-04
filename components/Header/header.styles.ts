@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.section`
-  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
   height: 100px;
   display: flex;
   align-items: center;
@@ -12,8 +12,8 @@ export const HeaderContainer = styled.section`
 export const MenuContainer = styled.nav`
   diplay: flex;
 
-  .contactButton {
-    margin-left: 20px;
+  #comoChegar {
+    padding-right: 25px;
   }
 
   @media (max-width: 820px) {

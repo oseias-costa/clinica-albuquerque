@@ -6,8 +6,8 @@ export default function Menu() {
     <MenuContainer>
       <LinkMenu href="#Servicos">Serviços</LinkMenu>
       <LinkMenu href="#Informacoes">Informações</LinkMenu>
-      <LinkMenu href="#ComoChegar">Como chegar</LinkMenu>
-      <Button size="medium" color="blue" id="contactButton">
+      <LinkMenu href="#ComoChegar" id='comoChegar'>Como chegar</LinkMenu>
+      <Button size="medium" color="blue">
         Contato
       </Button>
     </MenuContainer>

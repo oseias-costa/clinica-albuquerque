@@ -5,8 +5,8 @@ export const HeadlineContainer = styled.section`
   display: flex;
   justify-content: center;
   box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
-  align-items: end;
-  padding-top: 25px;
+  align-items: start;
+  padding-top: 45px;
 
   @media (max-width: 830px) {
     flex-wrap: wrap-reverse;
@@ -15,7 +15,7 @@ export const HeadlineContainer = styled.section`
 
 export const HeadlineDescription = styled.div`
   max-width: 443px;
-  padding-top: 70px;
+  padding-top: 40px;
   padding-bottom: 45px;
 
   @media (max-width: 785px) {
@@ -40,8 +40,8 @@ export const HeadlineTitle = styled.h1`
   font-size: 36px;
 `;
 export const HeadlineContent = styled.p`
-  padding-bottom: 22px;
-  padding-top: 12px;
+  padding-bottom: 32px;
+  padding-top: 16px;
   max-width: 410px;
   color: var(--color-gray-text);
   font-size: 200;

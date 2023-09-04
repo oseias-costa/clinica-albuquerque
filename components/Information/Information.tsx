@@ -4,7 +4,7 @@ import InformationItem from "./InformationItem";
 
 export default function Information() {
   const informationList = informationData.information.map((item) => (
-    <InformationItem icon={item.icon} content={item.content} />
+    <InformationItem id={item.id} key={item.id} icon={item.icon} content={item.content} />
   ));
 
   return (

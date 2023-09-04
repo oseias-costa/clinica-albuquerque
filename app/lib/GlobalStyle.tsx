@@ -13,6 +13,7 @@ export const GlobalStyle = createGlobalStyle`
         border: 0;
         margin: 0;
         padding: 0; 
+        scroll-behavior: smooth;
     }
 
     h2 {
