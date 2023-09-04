@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from "@storybook/react";
-import Benefits from "../components/Benefits/Benefits";
+import Benefits from "@/components/Benefits/Benefits";
 
 const meta: Meta<typeof Benefits> = {
   title: "Section/Benefits",
@@ -7,8 +7,8 @@ const meta: Meta<typeof Benefits> = {
 };
 
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<typeof Benefits>;
 
 export const Primary: Story = {
-  render: () => <Benefits />,
-};
+  render: () => <Benefits />
+}

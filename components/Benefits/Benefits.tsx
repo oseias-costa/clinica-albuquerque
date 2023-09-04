@@ -19,7 +19,8 @@ export default function Benefits(){
                 <S.BenefitsList>
                     {benefitsList}
                 </S.BenefitsList>
-                <Button color="white" size="medium" children={benefitsData.textButton} />            </S.BenefitsDescription>
+                <Button color="white" size="medium">{benefitsData.textButton}</Button>            
+            </S.BenefitsDescription>
         </S.BenefitsContainer>
     )
 }

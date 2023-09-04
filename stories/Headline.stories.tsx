@@ -1,5 +1,5 @@
+import Headline from "@/components/Headline/Headline";
 import { Meta, StoryObj } from "@storybook/react";
-import { Headline } from "../components/Headline/Headline";
 
 const meta: Meta<typeof Headline> = {
   title: "Section/Headline",

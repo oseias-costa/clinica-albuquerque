@@ -1,5 +1,5 @@
+import Services from "@/components/Services/Services";
 import { Meta, StoryObj } from "@storybook/react";
-import { Services } from "../components/Services/Services";
 
 const meta: Meta<typeof Services> = {
   title: "Section/Services",
@@ -7,8 +7,8 @@ const meta: Meta<typeof Services> = {
 };
 
 export default meta;
-type Story = StoryObj<typeof meta>;
+type Story = StoryObj<typeof Services>;
 
 export const Primary: Story = {
-  render: () => <Services />,
+  render: () => <Services />
 };
