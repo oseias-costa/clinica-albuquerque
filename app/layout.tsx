@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
 import StyledComponentsRegistry from "./lib/registry";
 import { GlobalStyle } from "./lib/GlobalStyle";
+import Google from "@/components/global/Google";
+import GoogleBody from "@/components/global/GoogleBody";
+import Meta from "@/components/global/Meta";
 
 const montserrat = Montserrat({
   weight: ["300", "400", "600", "700"],
@@ -22,7 +25,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="br">
+      <header>
+        <Google />
+        <Meta />
+      </header>
       <body className={montserrat.className}>
+        <GoogleBody />
         <GlobalStyle />
         <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
       </body>
