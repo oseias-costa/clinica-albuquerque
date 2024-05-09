@@ -5,7 +5,7 @@ export const BenefitsContainer = styled.section`
     display: flex;
     justify-content: center;
     padding-top: 80px;
-    background: linear-gradient(180deg, rgba(13, 35, 129, 0.85) 6.64%, #0D2381 100%);
+    background: linear-gradient(180deg, #2F336D 6.64%, #1B1E3C 100%);
 
     @media(max-width: 890px){
         flex-direction: column;
@@ -14,7 +14,7 @@ export const BenefitsContainer = styled.section`
 `
 
 export const BenefitsImage = styled(Image)`
-    width: 413px;
+    width: 363px;
     height: auto;
     padding-right: 60px;
 
@@ -24,7 +24,7 @@ export const BenefitsImage = styled(Image)`
     }
 
     @media(max-width: 520px){
-        width: calc(100% - 40px);
+        width: calc(80% - 40px);
     }
 `
 
@@ -45,6 +45,7 @@ export const BenefitItemContent = styled.p`
 `
 
 export const BenefitsDescription = styled.div`
+    padding-bottom: 40px;
     @media(max-width: 890px){
         padding-top: 60px;
         padding-bottom: 60px;

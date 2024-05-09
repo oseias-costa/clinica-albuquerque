@@ -1,6 +1,6 @@
 import { FooterContainer, LogoFooter } from './footer.styles';
 import FooterMenu from './FooterMenu'
-import Logo from "../../public/logo-oral-brasil-footer.svg";
+import Logo from "../../public/img/Logo-Transparente-SP-Implantes.png";
 import FooterMidias from './FooterMidias';
 
 export default function Footer() {
@@ -9,6 +9,7 @@ export default function Footer() {
       <LogoFooter
         src={Logo}
         alt="Logo Clínica Odontológica Albuquerque de Osasco SP"
+        width={280}
       />
       <FooterMenu />
       <FooterMidias />

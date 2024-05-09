@@ -1,6 +1,6 @@
-import Location from "../../public/location.png";
-import Clock from "../../public/clock.png";
-import Phone from "../../public/phone.png";
+import Location from "../../public/img/location.png";
+import Clock from "../../public/img/clock.png";
+import Phone from "../../public/img/phone.png";
 
 export const informationData = {
   title: "Informações",

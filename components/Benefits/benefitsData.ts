@@ -1,4 +1,4 @@
-import Image from "../../public/zeze-benefits2.png";
+import Image from "../../public/img/benefits-purple.png";
 
 export const benefitsData = {
     title: 'Quais os benefícios de ser atendido por uma equipe com mais de 15 anos de experiência?',

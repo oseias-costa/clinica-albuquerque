@@ -1,6 +1,6 @@
 import { FooterMidiasContainer, IconMidia } from "./footer.styles";
-import Insta from "../../public/insta.png";
-import Face from "../../public/face.png";
+import Insta from "../../public/img/insta.png";
+import Face from "../../public/img/face.png";
 
 export default function FooterMidias(){
     return(

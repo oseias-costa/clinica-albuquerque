@@ -14,8 +14,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Clínica Oral Brasil - Unidade Osasco/SP",
-  description: "Clínica Oral Brasil - Unidade Osasco/SP - Implantes, Protese e Lentes de Contato. Clínica Oral Brasil Osasco tem o tratamento ideal para você com um time de mais de 15 anos de experiência.",
+  title: "Clínica SP Implantes - Tratamentos Odontológicos - Unidade Osasco/SP",
+  description: "Clínica SP Implantes - Tratamentos Odontológicos - Unidade Osasco/SP - Implantes, Protese e Lentes de Contato. Clínica Oral Brasil Osasco tem o tratamento ideal para você com um time de mais de 15 anos de experiência.",
 };
 
 export default function RootLayout({
@@ -26,9 +26,6 @@ export default function RootLayout({
   return (
     <html lang="br">
       <header>
-        <meta name='google-site-verification' content="YbPwmIOYIlzFSa_2mN5bTeQcC1GfAFX-soQyGNgsu8s" />
-        <Google />
-        <Meta />
       </header>
       <body className={montserrat.className}>
         <GoogleBody />

@@ -1,6 +1,6 @@
-import implant from "../../public/implant.png";
-import denture from "../../public/denture.png";
-import lents from "../../public/lent.png";
+import implant from "../../public/img/implant.png";
+import denture from "../../public/img/denture.png";
+import lents from "../../public/img/lent.png";
 
 export const servicesData = {
   subtitle: "Nossos serviços",

@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const FooterContainer = styled.section`
   display: flex;
   justify-content: space-around;
-  background-color: var(--color-blue-strong);
+  background-color: #16172D;
   padding-top: 46px;
   padding-bottom: 46px;
 

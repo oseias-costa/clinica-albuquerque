@@ -6,7 +6,7 @@ export const LocationContainer = styled.section`
   align-items: center;
   padding-top: 46px;
   padding-bottom: 46px;
-  background: linear-gradient(180deg, rgba(13, 35, 129, 0.85) 6.64%, #0D2381 100%);
+  background: linear-gradient(180deg, #2F336D 6.64%, #1B1E3C 100%);
   padding-left: 20px;
   padding-right: 20px;
 `;
