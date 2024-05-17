@@ -1,4 +1,4 @@
-import ImageHeader from "../../public/img/headline-photo.png";
+import ImageHeader from "../../public/img/headline-couple.png";
 
 export const headlineData = {
   subtitle: "Clínica SP Implantes - Unidade Osasco/SP",

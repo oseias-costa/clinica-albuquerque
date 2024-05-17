@@ -14,12 +14,12 @@ export const informationData = {
       id: "02",
       icon: Clock,
       content:
-        "Segunda - Quarta - Sexta: 7:00 - 19:00\nTerça - Quinta:  7:00 - 12:00",
+        "Segunda à Sexta: 8:00 - 18:00\nSábados (Verificar):  08:00 - 12:00",
     },
     {
       id: "03",
       icon: Phone,
-      content: "(11)58451351",
+      content: "(11)4624 7215",
     },
   ],
 };

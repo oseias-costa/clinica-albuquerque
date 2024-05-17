@@ -42,11 +42,12 @@ export const FooterMenuContainer = styled.div`
 export const LogoFooter = styled(Image)``;
 
 export const FooterMidiasContainer = styled.div`
-  display: flex;
+  
 `;
+
 
 export const IconMidia = styled(Image)`
   width: 41px;
   height: 41px;
-  margin-left: 10px;
+  margin-right: 10px;
 `;

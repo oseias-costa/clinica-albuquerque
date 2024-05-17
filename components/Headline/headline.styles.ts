@@ -46,12 +46,15 @@ export const HeadlineContent = styled.p`
   font-size: 200;
 `;
 export const HeadlineImage = styled(Image)`
-  width: 343px;
+  max-width: 500px;
   height: auto;
   margin-left: 20px;
   margin-right: 20px;
+  @media (max-width: 1000px){
+    max-width: 400px;
+  }
 
   @media (max-width: 443px){
-    width: calc(100% - 40px;);
+    width: calc(100% - 40px);
   }
 `;
